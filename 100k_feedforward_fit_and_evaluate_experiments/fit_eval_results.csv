@@ -1,0 +1,9 @@
+2,20,tanh,100k_feedforward_fit_and_evaluate_experiments/model_2_20_tanh.ckpt,0.027180,0.048057
+3,40,tanh,100k_feedforward_fit_and_evaluate_experiments/model_3_40_tanh.ckpt,0.019230,0.029692
+4,20,tanh,100k_feedforward_fit_and_evaluate_experiments/model_4_20_tanh.ckpt,0.027142,0.031580
+4,100,tanh,100k_feedforward_fit_and_evaluate_experiments/model_4_100_tanh.ckpt,0.029323,0.078345
+2,100,tanh,100k_feedforward_fit_and_evaluate_experiments/model_2_100_tanh.ckpt,0.018455,0.033653
+2,40,tanh,100k_feedforward_fit_and_evaluate_experiments/model_2_40_tanh.ckpt,0.019872,0.022308
+3,20,tanh,100k_feedforward_fit_and_evaluate_experiments/model_3_20_tanh.ckpt,0.026668,0.023650
+4,40,tanh,100k_feedforward_fit_and_evaluate_experiments/model_4_40_tanh.ckpt,0.018923,0.037320
+3,100,tanh,100k_feedforward_fit_and_evaluate_experiments/model_3_100_tanh.ckpt,0.024013,0.074120
