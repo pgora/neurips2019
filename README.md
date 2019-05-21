@@ -4,9 +4,9 @@
 
 This repository contains companion code for the paper *Graph based sparse neural networks for traffic signal optimization*, submitted for NeurIPS Conference 2019.
 
-Trained models from our experiments can be found in the file ``100k_fit_and_eval_experiment_results.zip`` that can be obtained from http://abc.org and should be unzipped to the repository main folder.
+Trained models from our experiments can be found in the file ``100k_fit_and_eval_experiment_results.zip`` that can be obtained from http://abc.org and should be unzipped to the repository main directory.
 
-The core and the toy datassets can be found in the archives ``100k.zip`` and ``toy_set.zip``, available from http://abc.org and http://abc.org, respectively. These should be unzipped to the repository main folder.
+The core and the toy datasets can be found in the archives ``100k.zip`` and ``toy_set.zip``, available from http://abc.org and http://abc.org, respectively. These should be unzipped to the repository main directory.
 
 ## Repository contents description
 
@@ -38,6 +38,7 @@ Notebooks:
 
 * ``graph_nn_type_1_tests.ipynb`` is a notebook documenting a number of experiments related to type 1 graph nns, including preliminary results, random graph experiment summary, and some nn visualization (not included in the paper) 
 * ``graph_nn_type_2_tests.ipynb`` is an analogue of ``graph_nn_type_1_tests.ipynb`` for type 2 networks.
+* ``feedforward_nn_tests.ipynb`` contains first test results for feedforward neural networks, in preparation to produce Table 3 in the paper.
 * ``fit_and_evaluate_experiments_summary_type_1.ipynb`` was used for producing Table 1 in the paper, as well as two tables included in Supplementary materials.
 * ``fit_and_evaluate_experiments_summary_type_2.ipynb`` is a full analogue of ``fit_and_evaluate_experiments_summary_type_1.ipynb`` for graph nns of type 2. Table 2 was obtained using this code, as well two further tables included in Supplementary materials.
 * ``fit_and_evaluate_experiments_summary_feedforward.ipynb`` is a full analogue of ``fit_and_evaluate_experiments_summary_type_1.ipynb`` for fully connected feedforward networks. Table 3 was obtained using this code, as well two further tables included in Supplementary materials.
@@ -56,10 +57,10 @@ Result files:
 
 Additional:
 
-* ``macierz_sasiedztwa.txt`` contains our traffic optimization problem adjacency matrix. It is a _directed_, nonsymmetric matrix, but we symmetrize it in all our experiments by extructing _undirected_ edges. "Macierz sąsiedztwa" just means "adjacency matrix" in Polish.
+* ``macierz_sasiedztwa.txt`` contains our traffic optimization problem adjacency matrix. It is a _directed_, nonsymmetric matrix, but we symmetrize it in all our experiments by extracting _undirected_ edges. "Macierz sąsiedztwa" just means "adjacency matrix" in Polish.
 * PNG files contain the plots included in the paper and its Supplementary materials.
 
-**NOTE**: Type 2 neural network were first dubbed "Kipf's networks" by us due to a formal analogy to the networks discussed in (Kipf, T. N. and Welling, M. (2017)). The name stuck, which is visible in several files in the repository.
+**NOTE**: Type 2 neural networks were first dubbed "Kipf's networks" by us due to a formal analogy to the networks discussed in (Kipf, T. N. and Welling, M. (2017)). The name stuck, which is visible in several files in the repository.
 
 ### Use example
 
