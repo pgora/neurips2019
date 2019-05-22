@@ -60,7 +60,7 @@ Result files:
 Additional:
 
 * ``macierz_sasiedztwa.txt`` contains our traffic optimization problem adjacency matrix. It is a _directed_, nonsymmetric matrix, but we symmetrize it in all our experiments by extracting _undirected_ edges. "Macierz sąsiedztwa" just means "adjacency matrix" in Polish.
-* ``environment`` contains the list of python packages in the Python environment we used on AWS.
+* ``environment.txt`` contains the list of python packages in the Python environment we used on AWS.
 * PNG files contain the plots included in the paper and its Supplementary materials.
 
 **NOTE**: Type 2 neural networks were first dubbed "Kipf's networks" by us due to a formal analogy to the networks discussed in (Kipf, T. N. and Welling, M. (2017)). The name stuck, which is visible in several files in the repository.
